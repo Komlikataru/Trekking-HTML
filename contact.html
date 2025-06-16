@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        
+        nav {
+            display: flex;
+            gap: 30px; 
+            background-color: lightgray;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            padding: 20px;
+            margin-top: 20px;
+            
+        }
+        
+       
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            text-align: left;
+        }
+        ul {
+            text-align: left;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       
+        <nav>
+            <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><span style="color: rgb(45, 169, 236); text-shadow: 2px 2px 2px black; font-size: 55px;">Trek</span> Sahyadri</h1>
+            <a href="index.html">Home</a>   
+            <a href="RajmachiFort.html">Rajmachi Fort</a>
+            <a href="SinhagadFort.html">Sinhagad Fort</a>
+            <a href="LohagadTrek.html">Lohagad Trek</a>
+            <a href="TornaFortTrek.html">Torna Fort Trek</a>
+            <a href="Harishchandragad.html">Harishchandragad</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <h1 style="text-align: center; color: blue;"><ins>Contact Us | Let's travel together</ins></h1>
+
+<form  style="max-width: 500px; margin: 0 auto; padding: 20px; border-radius: 10px;">
+    <label for="name" style="font-size: 18px;">Full Name:</label><br>
+    <input type="text" name="name" placeholder="Enter your full name" required 
+        style="width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc; "><br>
+
+    <label for="email" style="font-size: 18px;">Email:</label><br>
+    <input type="email" name="email" placeholder="Enter your email" required 
+        style="width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc; "><br>
+
+    <label for="phone" style="font-size: 18px;">Phone Number:</label><br>
+    <input type="tel"  name="phone" placeholder="Enter your phone number" required 
+        style="width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc; "><br>
+
+    <label for="trek" style="font-size: 18px;">Select Trek:</label><br>
+    <select  name="trek" required 
+        style="width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc;">
+        <option value="">Choose a trek...</option>
+        <option value="Rajmachi Fort">Rajmachi Fort Trek</option>
+        <option value="Sinhagad Fort">Sinhagad Fort Trek</option>
+        <option value="Lohagad Trek">Lohagad Trek</option>
+        <option value="Torna Fort">Torna Fort Trek</option>
+        <option value="Harishchandragad">Harishchandragad Trek</option>
+    </select><br>
+
+    <label for="message" style="font-size: 18px;">Message:</label><br>
+    <textarea rows="4" placeholder="Write your message here..." required 
+        style="width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc;"></textarea><br>
+
+<button type="submit" style="background-color: rgb(102, 193, 223); padding: 10px; ">Submit</button>
+</form>
+<footer style="background-color: lightgray; padding: 10px; margin-top: 10px;">
+    <p style="font-size: 18px; text-align: center;">&copy; 2025 Trek Sahyadri | All Rights Reserved</p>
+  
+</footer>
+</body>
+</html>
